@@ -46,17 +46,14 @@ public class jawaban_no_1 {
         int flag = 0;
         int point = 0;
         
-        System.out.println("Isi data adalah : ");
+   
         jawaban_no_1.tampil(A);
         
-        System.out.println("Data setelah di sorting :");
+      
         jawaban_no_1.bubbleSort(A);
         jawaban_no_1.tampil(A);
         
-        System.out.println("");
-        
-        System.out.print("Data yang dicari : ");
-        System.out.println(cari);
+     
                 
         while((FirstIndex <= LastIndex) && (flag == 0)){
             point = (LastIndex + FirstIndex) / 2;
